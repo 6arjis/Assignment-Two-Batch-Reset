@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* NavBar CSS starts here */
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.navbar-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+.navbar-main h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+.link-container{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.nav-menu-btn{
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+}
+.active{
+    background-color:rgb(230, 83, 60);
+    color: white;
+}
+.hamburger-menu{
+    display: none;
+}
+/* Navbar css ends here */
