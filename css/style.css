@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
 *{
     margin: 0px;
@@ -10,9 +11,10 @@
 
 /* NavBar CSS starts here */
 header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-color:rgb(17, 17, 17);
+    
 }
-.navbar-main{
+.navbar-main{   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,3 +48,83 @@ header{
     display: none;
 }
 /* Navbar css ends here */
+/* hero section start here */
+.banner-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+}
+.banner-child{
+    width: 40%;
+    position: relative;
+}
+.banner-child img{
+    height: 600px;
+    width: 100%;
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+   text-align: center;
+    border-radius: 8px;
+    background-color: grey;
+    opacity: 0.7;
+    width: 150px;
+    position: absolute;
+    top: 60%;
+    right: 80%;
+}
+.box-2{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 0px 5px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: grey;
+    opacity: 0.7;
+    width: 150px;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+.banner-child h1{
+    font-size: 78px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: white;
+}
+.cursive{
+    font-family: "Style Script", cursive;
+    font-size: 78px;
+    font-weight: 900;
+}
+.banner-child p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+  
+}
+.btn-primary{
+    background-color: rgb(230, 83, 60);
+    padding: 15px 50px;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    margin-right: 20px;
+}
+.btn-secondary{
+    background-color: transparent;
+    padding: 15px 50px;
+    border: 1px solid white;
+    border-radius: 18px;
+    color: white;
+}
