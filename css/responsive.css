@@ -130,16 +130,39 @@ flex-direction: column;
     position: absolute;
     top: 55%;
 }
+.footer{
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.brand h1{
+    margin-bottom: 5px;
+}
+.get-start, .brand{
+    margin: 10px 0px;
+}
+.get-start h1{
+    margin-bottom: 10px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
 
 }
 @media screen and (min-width: 1024px) {
+    header{
+        padding: 0px 50px;
+    }
     .hover-one {
         padding: 20px;
         background-color: grey;
         opacity: 0.5;
         position: absolute;
         top: 30%;
-        right: 15%;
+        right:14%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -150,8 +173,8 @@ flex-direction: column;
         background-color: grey;
         opacity: 0.5;
         position: absolute;
-        top: 55%;
-        right: 33%;
+        top:60%;
+        right: 35%;
         padding: 20px;
         display: flex;
         align-items: center;
@@ -185,6 +208,8 @@ flex-direction: column;
         position: absolute;
         top: 50%;
     }
-      
+    .footer{
+        padding: 20px;
+    }
 
 }
