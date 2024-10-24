@@ -1,11 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* NavBar Style */
+header {
+  background-color: rgb(17, 17, 17);
+}
+.half {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-container {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-btn {
+  height: 30px;
+  width: 80px;
+  border: none;
+  margin-right: 10px;
+  background-color: transparent;
+  color: white;
+}
+.hamburger-menu{
+  display: none;
+}
+.active {
+  background-color: rgb(230, 83, 60);
+  border-radius: 17px;
+}
+.nav-left h1 {
+  font-size: 36px;
+  color: rgb(230, 83, 60);
+}
+.nav-right {
+  border: 1px solid gray;
+  border-radius: 17px;
+}
+/* Hero Style */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-right,
+.hero-left {
+  width: 40%;
+}
+.hero-right img {
+  position: relative;
+}
+.hero-left h1 {
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+  color: white;
+  margin-bottom: 10px;
+}
+.cursive {
+  font-family: "Dancing Script", cursive;
+}
+.hero-left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.btn-container{
+    display:flex ;
+    gap: 40px;
+}
+.btn-primary{
+    width: 170px;
+    padding: 10px 30px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    border-radius: 17px;
+}
+.btn-secondary{
+    width: 170px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 17px;
+    color: white;
+}
+.hover-one {
+  padding: 20px;
+  background-color: grey;
+  opacity: 0.5;
+  position: absolute;
+  top: 40%;
+  right: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6px;
 }
 
+.hover-two {
+  background-color: grey;
+  opacity: 0.5;
+  position: absolute;
+  top: 65%;
+  right: 33%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6px;
+}
+.red-circle {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
+  opacity: 1 !important;
+  margin: 10px;
+}
+.hover-text {
+  font-size: 30px;
+  color: white;
+}
+.hover-para {
+  font-size: 25px;
+  color: black;
+}
