@@ -75,8 +75,44 @@
     gap: 10px;
     align-items: center;
   }
+  /* habits style */
+  .habits{
+flex-direction: column;
+  }
+  /* motivation style */
+  .motivation{
+    padding: 10px;
+  }
+  .challenge{
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .challenge-child{
+    width: 100%;
+  }
+  .challenge-child h1{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5px;
 }
-@media screen and (min-width: 992px) {
+.challenge-child p{
+    color: grey;
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+.btn-challenge{
+    width: 100% !important;
+}
+.challenge-child img{
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 17px;
+}
+}
+@media screen and (min-width: 1024px) {
     .hover-one {
         padding: 20px;
         background-color: grey;
@@ -118,4 +154,13 @@
         font-size: 25px;
         color: black;
       }
+      .challenge-child{
+        width: 45%;
+     }
+      
+      .challenge-child img{
+        width: 100%;
+     }
+      
+
 }
