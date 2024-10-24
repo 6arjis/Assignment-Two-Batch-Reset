@@ -1,43 +1,6 @@
 @media screen and (max-width:576px) {
-    .navbar-main{
-        flex-direction: row;
-    }
-    .hamburger-menu{
-        display: block;
-    }
-    .nav-menu-btn{
-        display: none;
-    }
-    .banner-main{
-        flex-direction: column;
-        
-    }
-    .banner-child{
-        width: 100%;
-        padding: 20px;
-    }
-    .banner-child h1{
-        font-size: 50px;
-        font-weight: 900;
-        margin-bottom: 20px;
-    }
-    .banner-child p{
-        margin: 25px 0px;
-    }
-    .btn{
-        margin: 10px;
-    }
-    .banner-child img{
-        width: 100%;
-    }
-    .box-1{
-        top: 60%;
-        right: 60%;
-    }
-    .box-2{
-        right: 4%;
-    }
+
 }
 @media screen and (min-width:992px) {
-    
-}
+
+} 
