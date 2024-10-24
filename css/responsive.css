@@ -111,6 +111,26 @@ flex-direction: column;
     width: 100%;
     border-radius: 17px;
 }
+/* Team style */
+.instructors{
+   
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.team{
+    padding: 50px 10px;
+   
+}
+.team-container>h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.img-hover{
+    position: absolute;
+    top: 55%;
+}
+
 }
 @media screen and (min-width: 1024px) {
     .hover-one {
@@ -161,6 +181,10 @@ flex-direction: column;
       .challenge-child img{
         width: 100%;
      }
+     .img-hover{
+        position: absolute;
+        top: 50%;
+    }
       
 
 }
