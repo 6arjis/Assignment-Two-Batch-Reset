@@ -134,6 +134,21 @@ td{
 .bmi h1{
   padding-top: 20px;
 }
+/* Videos style */
+.video-container{
+  padding: 20px;
+}
+.in-video{
+  width: 100%;
+}
+.videos{
+  padding: 10px;
+  grid-template-columns: repeat(1,1fr);
+}
+.video h2{
+  margin-bottom: 10px;
+}
+
 /* Team style */
 .instructors{
    
@@ -231,8 +246,15 @@ ul li{
         position: absolute;
         top: 50%;
     }
-    .footer{
-        padding: 20px;
+    .video-container{
+      padding: 50px;
+    }
+    .video{
+      margin: 10px;
+    }
+
+    .in-video{
+      width: 100%;
     }
 
 }
